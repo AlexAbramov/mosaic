@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85D63DC1-6BF3-4323-97FE-1BC6570B37FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mosaic</RootNamespace>
+    <AssemblyName>Mosaic</AssemblyName>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <StartupObject>Mosaic.Program</StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\App.cs" />
+    <Compile Include="Forms\ChangeImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangeImage.Designer.cs">
+      <DependentUpon>ChangeImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PrintingMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintingMode.Designer.cs">
+      <DependentUpon>PrintingMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TileForm.Designer.cs">
+      <DependentUpon>TileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App\Config.cs" />
+    <Compile Include="GeoLib\BgImage.cs" />
+    <Compile Include="GeoLib\Constants.cs" />
+    <Compile Include="GeoLib\CoordTransform.cs" />
+    <Compile Include="GeoLib\GeomUtils.cs" />
+    <Compile Include="GeoLib\Styles\BaseStyleBuilder.cs" />
+    <Compile Include="GeoLib\Styles\Brush.cs" />
+    <Compile Include="GeoLib\Styles\Extended.cs" />
+    <Compile Include="GeoLib\Styles\Image.cs" />
+    <Compile Include="GeoLib\Styles\Pen.cs" />
+    <Compile Include="GeoLib\Styles\Style.cs" />
+    <Compile Include="GeoLib\Styles\StyleBuilder.cs" />
+    <Compile Include="GeoLib\Styles\Text.cs" />
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoLib\GLib.cs" />
+    <Compile Include="GeoLib\Map.cs" />
+    <Compile Include="GeoLib\MapUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="App\NamedColor.cs" />
+    <Compile Include="App\Palette.cs" />
+    <Compile Include="Forms\PaletteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaletteForm.Designer.cs">
+      <DependentUpon>PaletteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\ChangeImage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChangeImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintingMode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintingMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TileForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoLib\MapUserControl.resx">
+      <DependentUpon>MapUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaletteForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PaletteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MosaicForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MosaicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resources\Mosaic.locale.csv" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Forms\MosaicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MosaicForm.Designer.cs">
+      <DependentUpon>MosaicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoLib\Scales.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mosaic.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\geomethod\Geomethod.Windows.Forms\Geomethod.Windows.Forms.csproj">
+      <Project>{8f35562b-ea82-4994-ab24-f0d98dcd9a68}</Project>
+      <Name>Geomethod.Windows.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\geomethod\Geomethod\Geomethod.csproj">
+      <Project>{a61a79a7-c64c-4c3a-8fcf-cab7a33d30c1}</Project>
+      <Name>Geomethod</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

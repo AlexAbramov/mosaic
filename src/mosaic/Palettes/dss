@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Palette xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>dss</name>
+  <imageFilePath></imageFilePath>
+  <colors>
+    <NamedColor>
+      <name>1</name>
+      <XmlColor>-15132393</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>e</name>
+      <XmlColor>-11505348</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>r</name>
+      <XmlColor>-12309211</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>t</name>
+      <XmlColor>-4814233</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>u</name>
+      <XmlColor>-7249719</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>y</name>
+      <XmlColor>-1055753</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>hgf</name>
+      <XmlColor>-9288151</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>hfg</name>
+      <XmlColor>-9812937</XmlColor>
+    </NamedColor>
+  </colors>
+</Palette>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Palette xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>leaves</name>
+  <imageFilePath></imageFilePath>
+  <colors>
+    <NamedColor>
+      <name>Blue</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-11895060</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>Red</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-50688</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>Brown</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-6400175</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>Yellow</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-18574</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>DarkRed</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-7991552</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>Yellow1</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-5732</XmlColor>
+    </NamedColor>
+    <NamedColor>
+      <name>Dark</name>
+      <visible>true</visible>
+      <old />
+      <XmlColor>-13499639</XmlColor>
+    </NamedColor>
+  </colors>
+</Palette>

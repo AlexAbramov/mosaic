@@ -1,0 +1,52 @@
+﻿id;en;ru
+_lisensed_to;Licensed to:;Лицензия на использование"
+_change;Change;Заменить
+_selectRegion;Select region;Выбор области рисунка для панно
+_scaleDown;Scale down;Уменьшить изображение
+_scaleUp;Scale up;Увеличить изображение
+_left;Left;Влево
+_top;Top;Вверх
+_right;Right;Вправо
+_bottom;Bottom;Вниз
+_changeColor;Change color;Заменить цвет
+_color;Color;Цвет
+_name;Name;Имя
+_count;Count;Количество
+_matrixPrintMode;Matrix print mode;Режим печати матриц
+_lineColor;Line color;Цвет линий
+_palette;Palette;Палитра
+_gridColor;Grid color;Цвет сетки
+_width;Width;Ширина
+_height;Height;Высота
+_image;Image;Рисунок
+_changeSize;Change size;Изменить размер
+_createMosaic;Create mosaic;Создать мозаику
+_mosaicTiles;Mosaic tiles;Плиточная мозаика
+_mosaicSize;Mosaic size (mm);Размеры панно (мм)
+_tileSize;Tile size (mm);Размеры плитки (мм)
+_squareTile;Square;Квадратная
+_tileGap;Tile gap (mm);Плиточный зазор (мм)
+_tileSheet;Sheet;Матрица
+_reports;Reports;Отчеты
+_sorting;Sorting;Сортировка
+_saveMosaicImage;Save mosaic image;Сохранить рисунок панно
+_sheetsPrintPreview;Sheets print preview;Предварительный просмотр печати матриц
+_printSheets;Print sheets;Печать матриц
+_sheetsPrintOptions;Sheets print options;Параметры печати матриц
+_changeColorMode;Change color mode;Режим замены цвета
+_printTileCountReport;Print tile count report;Печать отчета по используемым плиткам
+_tileCountReportPreview;Tile count report preview;Предварительный просмотр отчета
+_saveTileCountReport;Save tile count report to file;Сохранение отчета в файл
+_paletteName;Palette name;Имя палитры
+_sorting;Sorting;Сортировка
+_selectColor;Select color;Выбор цвета
+_fromImage;From image;Из рисунка
+_colorChannels;Color channels;Значения по каналам
+_red;Red;Красный (Red)
+_green;Green;Зеленый (Green)
+_blue;Blue;Синий (Blue)
+_deselect;Deselect;Cнять выделение
+_printTileColor;Print tile color;Печатать цветную заливку плитки
+_sheetPrintingGap;Sheet printing gap;Расстояние между матрицами на странице
+_sheetPrintingSize;Sheet printing size;Размер матрицы при печати
+_printPreview;P&rint Preview;П&росмотр Печати
